@@ -31,7 +31,7 @@ class _MyRadioState extends State<MyRadio> {
   File? _avatar;
   bool checkboxValueA = true;
   bool checkboxValueB = true;
-  List<String> provices = ['', 'BKK', 'Pathumthani', 'Outbound'];
+  List<String> provices = ['', 'BK', 'Pathumthani', 'Outbound'];
   dynamic provice = '';
   @override
   Widget build(BuildContext context) {
