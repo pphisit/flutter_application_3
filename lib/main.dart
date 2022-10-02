@@ -31,11 +31,12 @@ class _MyRadioState extends State<MyRadio> {
   File? _avatar;
   bool checkboxValueA = true;
   bool checkboxValueB = true;
-  List<String> provices = ['', 'BKK', 'Pathumthani', 'Outbound'];
+  List<String> provices = ['', 'BKK', 'Pathumthaniii', 'Outbound'];
   dynamic provice = '';
   @override
   Widget build(BuildContext context) {
-    return Scaffold(resizeToAvoidBottomInset: false,
+    return Scaffold(
+        resizeToAvoidBottomInset: false,
         appBar: AppBar(
           title: const Text('Flutter Demo'),
         ),
@@ -70,7 +71,8 @@ class _MyRadioState extends State<MyRadio> {
             ),
           ),
         ),
-        body: SingleChildScrollView(child:(Column(children: <Widget>[
+        body: SingleChildScrollView(
+            child: (Column(children: <Widget>[
           checkbox(),
           checkbox_value(),
           buildSelectField(),
